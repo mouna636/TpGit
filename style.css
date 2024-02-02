@@ -1,0 +1,143 @@
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+  color: #1d1b1b;
+  font-weight: bold;
+  margin-right: 20px; 
+}
+
+.navbar .btn-primary {
+  background-color: #5bbfd8;
+  border-color: #5bbfd8;
+  width: auto;
+}
+
+
+.jumbotron {
+  background: url('img/carousel-2.jpg') center/cover no-repeat;
+  color: #fff;
+  padding: 150px 0;
+  text-align: center;
+  height: 700px; 
+}
+
+.jumbotron .container {
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .navbar h2 {
+    margin: 20px;
+  }
+
+  .jumbotron {
+    height: 400px;
+  }
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+.container-service {
+  background-color: #f8f9fa;
+}
+
+.service-item {
+  background-color: #d2e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.service-item:hover {
+  background-color: #5bbfd8;
+}
+
+.service-item h5 {
+  font-weight: bold;
+  color: #333333;
+}
+
+.service-item p {
+  color: #666666;
+}
+
+
+.container-about {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: normal;
+  color: #5bbfd8;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.container-about h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.container-about p {
+  color: #666666;
+  line-height: 1.6;
+}
+
+.container-about ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container-about li {
+  margin-bottom: 10px;
+}
+
+.container-about li i {
+  color: #5bbfd8;
+  margin-right: 10px;
+}
+
+.container-about .btn-primary {
+  background-color: #5bbfd8;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.mouvement-image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.mouvement-image:hover {
+  transform: translateY(-10px);
+}
+
+.footer {
+  background-color: #2c3e50;
+  color: #fff;
+  width: 100%;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: auto;
+}
